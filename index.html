@@ -5,44 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About my Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="portfolio.html" />
     <link rel="stylesheet" type="text/css" media="screen" href="contact.html" />
     <script src="main.js"></script>
 </head>
-<body> 
-<div class="row">
-    <div class="col-md-9" style="padding-right: 0;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white" style="padding-right: 0; padding-bottom: 0; padding-top: 0;">
-                <a class="navbar-brand bg-info text-white border border-light rounded" href="index.html" style="padding: 30px; margin-left:268px;">Jason Heap</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button> 
-        </nav>
+<body class="contact bg-white" background= "image/775818.jpg">
+    <div class="row">
+        <div class="col-md-9 bg-dark" style="padding-right: 0;">
+            <nav class="navbar navbar-expand-lg navbar-light" style="padding-right: 0; padding-bottom: 0; padding-top: 0; background-color:rgb(41, 41, 41); border-bottom: solid 4px; ">
+                    <a class="navbar-brand text-white border border-light rounded" href="index.html" style="padding: 30px; margin-left:275px; background-color:rgb(0,50,173) ">Jason Heap</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button> 
+            </nav>
+        </div>
+         <div class="col-md-3" style="padding-left: 0;">  
+            <nav class="navbar navbar-expand-lg navbar-light" style="line-height: 60px; background-color: rgb(41, 41, 41);">         
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:rgb(41, 41, 41)">
+                      <ul class="navbar-nav" >
+                        <li class="nav-item active mr-auto">
+                          <a class="nav-link text-light " href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link border-left text-light " href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link border-left text-light" href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+            </nav>
+        </div>
+        
     </div>
-     <div class="col-md-3" style="padding-left: 0;">  
-        <nav class="navbar navbar-expand-lg navbar-light bg-white" style="line-height: 60px">         
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav" >
-                    <li class="nav-item active mr-auto">
-                      <a class="nav-link " href="index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link border-left" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link border-left" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-        </nav>
-    </div>
-    
-</div>
 
-    <div class="container bg-light" style="margin-top: 0px; max-width: 970px; height: 500px;">
+    <div class="container" style="margin-top: 30px; max-width: 970px; height: 500px;background-color: rgb(126,126,126); border:inset; ">
         <div class="row border-bottom">
-            <h1 class="display-3">About me </h1> <hr>
+            <h1 class="display-3" style="color: rgb(255, 249, 240)">About me </h1> <hr>
             
         </div>
         <div class="row" style="padding-top: 25px">
@@ -50,18 +53,27 @@
                 <img src="image/Picture of me.jpg" alt="About me" class="img-thumbnail">
             </div>
             <div class="col-md-9">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, repudiandae dignissimos error eaque qui assumenda maxime iure nobis quibusdam quo, obcaecati voluptate magnam consequatur eveniet voluptatibus labore, dolor excepturi deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil corporis ipsa soluta consequuntur blanditiis rem. Explicabo, ducimus! Quod, nemo! Natus animi amet facere. Ullam temporibus ab dignissimos aliquam laudantium.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatem labore, alias omnis, sit suscipit blanditiis adipisci nemo deleniti pariatur quo. Velit, tempore maiores rem fugiat et ut blanditiis! Praesentium!</p>
+                <p>
+                    I was born and raised in West Valley City, Utah. I moved to the south end of the Salt Lake Valley and have been there ever since. <br>
+                    I have been married to Kenzie for a year and a half. no kids yet but we have TWO dogs. Yeah, I said two not just one but two! But they are awesome! <br>
+                    The oldest pup's name is Willow, she is a German Shepard. The next is Maverick, he is a German shepard husky mix.
+               </p>
+               <p>
+                   I love the Mountains, whether I am sitting on the mountain side on a cold, brisk opening day of the deer hunt or flying through them on a dirt bike. <br>
+                       I just cant get enough of the Mountains. Taking the dogs camping is always an interesting adventure.
+               </p>
+               <p>
+                   I try to be out going all the time but it doesnt work all the time...(Mostly i am just awkward) I love learning new things, and love trying to figure out how things work.<br>
+                   You'll often see me staring at the most random thing, i am just trying to figure out how it was built or what makes it work. I already know its weird so its ok judge me on that!
+               </p>
             </div>
         </div>
     </div>
 
-    <div class="card fixed-bottom">
-        <div class="card-body" style="text-align: center; background-color: gray; line-height: 5px">
-            &copycopyright Jason Heap
-        </div>
-    </div>
-    </div>
+    <nav class="navbar navbar-light fixed-bottom" style=" background-color: rgb(41, 41, 41);">
+            <span class="navbar-text" style="color: rgb(141, 133, 122); text-align: center; background-color: rgb(41, 41, 41)">
+              &copy copyright Jason Heap
+            </span>
+          </nav>
 </body>
 </html>
