@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About my Bootstrap</title>
+    <title>Jason Heap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> 
     <link rel="stylesheet" type="text/css" media="screen" href="portfolio.html" />
     <link rel="stylesheet" type="text/css" media="screen" href="contact.html" />
     <script src="main.js"></script>
@@ -31,10 +32,13 @@
                           <a class="nav-link text-light " href="index.html">About</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link border-left text-light " href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                          <a class="nav-link border-left text-light " href="portfolio.html">Projects<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link border-left text-light" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link border-left text-light" href="languages.html">known languages</a>
                         </li>
                       </ul>
                     </div>
@@ -46,9 +50,13 @@
 <div class="container" style="width: 960px; height: 960px;">
   <div class="row" style="margin-top: 50px;">
       <div class="col-md-12" style="height: 100px;">
-          <h1 style="color: antiquewhite; border-bottom: solid 1px;"> Portfolio </h1>
+          <h1 style="color: antiquewhite; border-bottom: solid 1px;"> Projects </h1>
           <hr bg-light>
       </div>
+  </div>
+
+  <div>
+      <h1 style="color: antiquewhite; border-bottom: solid 1px;"> See chosen projects below </h1>
   </div>
 
   <!--  -->
@@ -57,45 +65,50 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
 
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" style="max-width: 90%; max-height:89%; margin-left: 50px;" src="image/26239775_10209699612238857_2351447121738028919_n.jpg" alt="First slide">
+                    <img class="d-block w-100" style="max-width: 90%; max-height:89%; margin-left: 50px;" src="image/Go or Owe.png" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 style="font-weight: bolder;">My Family</h1>
-                        <h5>My wife Kenzie and the pups Willow and Maverick</h5>
+                        <h1 style="font-weight: bolder;">Go Or Owe (final project)</h1>
+                        <h5>http://www.goorowe.com</h5>
                     </div>
                   </div>
                 
 
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="image/bbq.jpg"  style="max-width: 960px; max-height: 960px;"  alt="Second slide" >
+                    <img class="d-block w-100" src="image/Open fridge.png"  style="max-width: 960px; max-height: 960px;"  alt="Second slide" >
                     <div class="carousel-caption d-none d-md-block">
-                      <h1 style="font-weight: bolder; color: rgb(230, 151, 48);">Love me some BBQ</h1>     
-                     <h5 style="color: rgb(230, 151, 48); ">Who doesnt't like BBQ</h5>
+                      <h1 style="font-weight: bolder; color: rgb(230, 151, 48);">Open Frdge</h1>     
+                     <h5 style="color: black ">https://blarsonmoore.github.io/OpenFridge/</h5>
                     
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="image/Train time.png" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3>Train Time</h3>
+                      <p>https://jrheap.github.io/trainTime/</p>
                     </div>
                   </div>
 
 
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="image/Lake-Mary-Morning.jpg" alt="Third slide" style="max-width: 960px; max-height: 960px;">
+                    <img class="d-block w-100" src="image/React Memory.png" alt="Third slide" style="max-width: 960px; max-height: 960px;">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1>The Mountains</h1>
-                        <h5>Home away from home</h5>
+                        <h1 style="color: black ">React Memory</h1>
                     </div>
                   </div>
                 </div>
+ 
+                </div>
+  
 
 
-                <!-- <div class="carousel-item">
-                     <img class="d-block w-100"  style="max-width: 90%; max-height:89%; margin-left: 75px;" src="image/country.jpg" alt="Forth slide" >
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <h1>Test!!!</h1>
-                        </div>
-                 </div> -->
+
 
 
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -106,7 +119,11 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
+                <i class="devicon-github-plain-wordmark"></i>
+                <a href="https://github.com/jrheap" class="btn btn-secondary btn-lg active"  role="button" aria-pressed="true">Please, see my github!</a>
+
+     </div>
+
 
 </div>
 
